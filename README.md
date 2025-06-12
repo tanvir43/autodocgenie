@@ -37,3 +37,11 @@ git clone https://github.com/yourusername/autodocgenie.git
 cd autodocgenie
 pip install -r requirements.txt
 uvicorn app.main:app --reload
+
+```
+
+## Run Tests
+```bash
+pytest tests/
+
+```
